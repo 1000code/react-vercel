@@ -19,6 +19,13 @@ const App = () => {
       <p>latitude 17.9706908 longitude 102.613322</p>
       <a
         target="_blank"
+        href="https://www.google.com/maps/?q=17.965113396078703,102.70876668436253"
+      >
+        kkkkkk
+      </a>
+      <br />
+      <a
+        target="_blank"
         href={`https://www.google.com/maps/?q=${coords.longitude},${coords.longitude}`}
       >
         {coords.latitude} {coords.longitude}
